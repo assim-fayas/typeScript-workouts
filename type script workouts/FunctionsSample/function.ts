@@ -97,4 +97,4 @@ will have.
 This process is called contextual typing because the context that the function occurred 
 within informs what type it should have. */
 
-export { }
+export {}
