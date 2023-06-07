@@ -1,2 +1,2 @@
 # typeScript-workouts
-This is my  sample workouts that i done  during practising typescript
+Here is a sample of the workouts I completed while practicing TypeScript:
