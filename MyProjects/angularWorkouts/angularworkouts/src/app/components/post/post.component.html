@@ -1,2 +1,7 @@
 <h1>{{title}}</h1>
+<h3>{{fromParent}}</h3>
 <h3>{{name}}</h3>
+
+<app-post-lists [post]='posts' (messageEvent)="recivemessage($event)"></app-post-lists>
+
+<p>{{fromchildOutput}}</p>

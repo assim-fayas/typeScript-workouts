@@ -1,4 +1,19 @@
 
 <app-navbar></app-navbar>
 <h1>{{title}}</h1>
-<app-post></app-post>
+{{message}}
+{{interpolationMessage}}
+<app-post [fromParent]='parentMessage'>  </app-post>
+
+<img class="image"[src]="imgUrl" alt="">
+
+<h2 [class.text-red]="bool">class binding</h2>
+<h2 [style.color]="bool ? 'red' :'blue' ">Style Binding</h2>
+
+<!-- event binding -->
+
+<button (click)="btnclick()">click</button>
+
+{{eventBind}} 
+
+<app-form></app-form>
